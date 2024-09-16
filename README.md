@@ -17,7 +17,7 @@ O Deploy foi feito utilizando o serviço “Spring Apps” da Azure. Abaixo desc
 1. Clone o repositório usando o comando:
 
     ```bash
-    git clone https://github.com/MarkfySoftware/markfy-mvc.git
+    git clone https://github.com/upstyle-challenge/upstyle-apirest.git
     ```
 
 2. Efetue a autenticação na Azure com o comando:
@@ -29,7 +29,7 @@ O Deploy foi feito utilizando o serviço “Spring Apps” da Azure. Abaixo desc
 3. Entre na pasta criada pela clonagem do repositório:
 
     ```bash
-    cd markfy-mvc
+    cd upstyle-apirest
     ```
 
 4. Gere o .JAR da aplicação com o comando: (certifique-se de ter o Maven instalado)
@@ -41,7 +41,7 @@ O Deploy foi feito utilizando o serviço “Spring Apps” da Azure. Abaixo desc
 5. Rode o comando responsável por implantar o .JAR no ambiente da Azure:
 
     ```bash
-    az spring app deploy -s markfy -g markfy -n prod --artifact-path target/markyfy-mvc-0.0.1-SNAPSHOT.jar
+    az spring app deploy -s upstyle -g upstyle -n prod --artifact-path target/upstyle-0.0.1-SNAPSHOT.jar
     ```
 
 ### No console da Azure:
@@ -50,7 +50,7 @@ Após o término da implantação, entre no aplicativo e selecione a opção **"
 
 ### Link do deploy já realizado pela equipe:
 
-[Markfy - Transforme seu Negócio](#)
+[Upstyle - Azure](https://upstyle-prod.azuremicroservices.io/perguntasview)
 
 ---
 
@@ -63,13 +63,13 @@ Para a execução da aplicação em ambiente local siga os seguintes passos:
 1. Clone o repositório:
 
     ```bash
-    git clone https://github.com/MarkfySoftware/markfy-mvc.git
+    git clone https://github.com/upstyle-challenge/upstyle-apirest.git
     ```
 
 2. Entre na pasta gerada:
 
     ```bash
-    cd markfy-mvc
+    cd upstyle-apirest
     ```
 
 3. Instale as dependências necessárias: (certifique-se de ter o Maven instalado)
@@ -84,6 +84,6 @@ Para a execução da aplicação em ambiente local siga os seguintes passos:
     mvn spring-boot:run
     ```
 
-5. Com a aplicação no ar, vá até seu navegador e acesse o endereço: [http://localhost:8080/](http://localhost:8080/)
+5. Com a aplicação no ar, vá até seu navegador e acesse o endereço: [http://localhost:8080/](http://localhost:8080/perguntasview)
 
 Sinta-se à vontade para navegar pela aplicação! :wink:
