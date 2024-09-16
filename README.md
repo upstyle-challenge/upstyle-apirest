@@ -1,16 +1,8 @@
-# Vídeo de Demonstração
-
-Confira abaixo o vídeo de demonstração da aplicação no YouTube:
-
-[Assista ao vídeo de demonstração no YouTube](https://www.youtube.com/watch?v=hc2LBvjBTe4&t=4s)
-
----
-
 # Código Fonte (Deploy)
 
 Utilizamos uma organização no GitHub para o versionamento dos códigos, abaixo disponibilizamos o link do repositório da aplicação principal:
 
-[GitHub - MarkfySoftware/markfy-mvc](https://github.com/MarkfySoftware/markfy-mvc)
+[GitHub - UPSTYLE-REST](https://github.com/upstyle-challenge/upstyle-apirest)
 
 O Deploy foi feito utilizando o serviço “Spring Apps” da Azure. Abaixo descrevemos o passo a passo para implantação do sistema no ambiente Cloud:
 
